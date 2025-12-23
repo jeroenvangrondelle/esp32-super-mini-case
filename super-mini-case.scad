@@ -80,10 +80,10 @@ module cable_case(width, length, height)
 
 // EXAMPLES
 //
-left(75) case(18, 23.2, 18.5);
-left(50) cable_case(18, 23.2, 13.5);
-left(25) case(18, 23.2, 8.5);
-cable_case(18, 23.2, 8.5);
+left(75) case(18, 24.2, 18.5);
+left(50) cable_case(18, 24.2, 13.5);
+left(25) case(18, 24.2, 8.5);
+cable_case(18, 24.2, 8.5);
 
-right(25) lid(18, 23.2);
-right(50) lid_hex(18, 23.2);
+right(25) lid(18, 24.2);
+right(50) lid_hex(18, 24.2);

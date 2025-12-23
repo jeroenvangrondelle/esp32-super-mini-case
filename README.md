@@ -1,8 +1,12 @@
-# ESP32 C3 Super Mini Case
+# ESP32 C3/C6/S3/H2 Super Mini Case
 
-A basic case for ESP32 C3 Super Mini boards. Lid clicks in place quite firmly. With optional pass-through for wires.
+A basic case for the different ESP32 Super Mini boards. Lid clicks in place quite firmly. With optional pass-through for wires.
 
 ![Examples](docs/examples.png)
+
+## Variants
+
+The different boards have different dimensions. This repo contains generated STL files for 23mm and 24mm boards. Measure your board and take the one that fits best. Or generate your own with the OpenSCAD tool.
 
 ## OpenSCAD
 
