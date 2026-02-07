@@ -8,7 +8,7 @@ A basic case for the different ESP32 Super Mini boards. Lid clicks in place quit
 
 The different boards have different dimensions. This repo contains generated STL files for 23mm and 24mm boards. Measure your board and take the one that fits best. Or generate your own with the OpenSCAD tool.
 
-## OpenSCAD
+## Custom sizes
 
 Created using OpenSCAD, using BOSL2 and hex-grid libraries. Variable size cases can be generated using SCAD source.
 
@@ -27,6 +27,20 @@ Created using OpenSCAD, using BOSL2 and hex-grid libraries. Variable size cases 
 
 Find the STL online:
 https://www.printables.com/model/1137008-esp32-c3-super-mini-case 
+
+## OpenSCAD Librarues used
+
+If you render the scad file locally, you need these libraries installed.
+
+- [The Belfry OpenScad Library, v2](https://github.com/BelfrySCAD/BOSL2)
+- [Hexagonal Grid Generator in OpenSCAD](https://www.printables.com/model/86604-hexagonal-grid-generator-in-openscad))
+- [Fast voronoi method for OpenSCAD](https://www.printables.com/model/831732-fast-voronoi-method-for-openscad)
+
+Download the OpenScad files and install them in the OpenScad Library folder.
+
+- Windows: My Documents\OpenSCAD\libraries
+- Linux: $HOME/.local/share/OpenSCAD/libraries
+- MacOS: $HOME/Documents/OpenSCAD/libraries
 
 ## License
 
