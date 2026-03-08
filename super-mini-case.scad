@@ -57,11 +57,11 @@ module lid_hex(width, length) {
     }
 }
 
-module cable_case(width, length, height)
+module cable_case(width, length, height, cable_width=1.5, cable_height=5)
 {
     difference() {
         case(width, length, height);
-        up(height-5.5) fwd(-.5*length-1) cuboid([1.5, 14, 5], rounding=.5, anchor=BOTTOM);
+        up(height-cable_height-0.5) fwd(-.5*length-1) cuboid([cable_width, 14, cable_height], rounding=.5, anchor=BOTTOM);
     }
 }
 
